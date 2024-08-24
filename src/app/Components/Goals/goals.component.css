@@ -1,0 +1,29 @@
+/* Goals section styling */
+.container-fluid {
+    background-color: black; /* Set a black background for the container */
+    color: white; /* Default text color */
+  }
+  
+  h2 {
+    color: #f8f9fa; /* Light color for title to stand out */
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Ensure proper handling of RTL and LTR directions */
+  [dir="rtl"] h2, [dir="rtl"] p {
+    text-align: right;
+  }
+  
+  [dir="ltr"] h2, [dir="ltr"] p {
+    text-align: left;
+  }
+  
+
+  
+  
+ 
+  
+
+  

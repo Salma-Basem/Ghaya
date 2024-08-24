@@ -1,0 +1,60 @@
+
+/* Animation for scaling the background */
+@keyframes scaleBackground {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.04); /* Slightly larger than the original size */
+    }
+}
+
+  .title-color
+  {
+    color: #BA9945;
+  }
+
+  .border-color
+  {
+    border-top: #BA9945 2px solid !important;
+  }
+
+
+.background-container {
+  position: relative;
+  background-image: url('/assets/Images/GhayaBackground.JPG');  /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px; /* Adjust height as needed */
+  animation: zoomIn 10s infinite alternate; /* Adjust duration as needed */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Black with 50% opacity */
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1; /* Ensure overlay is on top of the background */
+}
+
+h2 {
+  margin: 0;
+}
+
+@keyframes zoomIn {
+  0% {
+      background-size: 100%; /* Start at the original size */
+  }
+  100% {
+      background-size: 115%; /* Zoom in effect (adjust as needed) */
+  }
+}
+
+

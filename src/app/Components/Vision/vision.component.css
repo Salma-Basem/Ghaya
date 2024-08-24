@@ -1,0 +1,44 @@
+
+  
+  /* Container styling for centering and spacing */
+  
+  /* Ensure that headings and text are properly styled */
+  h2 {
+    color: #f8f9fa; /* Light color for headings to stand out */
+    font-size: 2rem; /* Adjust size as needed */
+    font-weight: bold;
+  }
+  
+  /* Card and text styling */
+  .text-light {
+    color: #e9ecef; /* Light color for text */
+  }
+  
+  .lead {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: #f1f1f1; /* Light gray color for better readability */
+  }
+  
+  /* Animation keyframes */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(30px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  

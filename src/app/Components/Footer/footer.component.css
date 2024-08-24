@@ -1,0 +1,58 @@
+.bg-color{
+    background-color: #111111;
+}
+.footer:hover {
+    color: var(--main-color) !important; /* Hover color */
+  }
+.text-color
+{
+    color: #898989;
+}
+.w-60
+{
+    width: 60%;
+}
+/* General RTL support */
+
+
+  
+  .social-media {
+    display: flex;
+    align-items: center;
+  }
+  .scroll-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--light-color);
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  
+  .scroll-to-top-btn:hover {
+    background-color: var(--background-color);
+   
+  }
+  .scroll-to-top-btn:hover .fa-arrow-up {
+    color: var(--light-color);
+   
+  }
+  /* Ensure the button is not accidentally hidden */
+  .scroll-to-top-btn {
+    display: block !important;
+  }
+  
+  .instagram-color
+  {
+    color: #BB5287;
+  }
+
+  .snapchat-color
+  {
+    color: #FDFC00;
+  }
+

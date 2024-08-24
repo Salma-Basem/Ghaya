@@ -1,0 +1,69 @@
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-main" [dir]="language === 'ar' ? 'rtl' : 'ltr'">
+    <div class="container">
+        <!-- Logo and Toggler -->
+        <a class="navbar-brand" routerLink="Home">
+            <img src="./assets/Images/GhayaLogoNav.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Navigation Links and Actions -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav flex-row ms-md-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" routerLink="Home" routerLinkActive="bg rounded-3">{{ 'NAVBAR.HOME' | translate }}</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" routerLinkActive="bg rounded-3" data-bs-toggle="dropdown" aria-expanded="false">
+                        {{ 'NAVBAR.ABOUT_US' | translate }}
+                    </a>
+                    <ul class="dropdown-menu bg-main">
+                        <li><a class="dropdown-item bg-main nav-link text-center" routerLink="AboutUs/AboutGhaya" [fragment]="'about-ghaya'">{{ 'NAVBAR.ABOUT_GHAYA' | translate }}</a></li>
+                        <li><a class="dropdown-item bg-main nav-link text-center" routerLink="AboutUs/OurGoals" [fragment]="'our-goals'">{{ 'NAVBAR.OUR_GOALS' | translate }}</a></li>
+                    </ul>
+                </li>
+               
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="ContactUs" routerLinkActive="bg rounded-3">{{ 'NAVBAR.CONTACT_US' | translate }}</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" routerLink="Home" routerLinkActive="bg rounded-3">{{ 'NAVBAR.COMPETITIONS' | translate }}</a>
+              </li>
+            </ul>
+            
+            <!-- Social Media and Language Switch -->
+            <div class="d-flex align-items-center ms-auto">
+                <div class="social-media d-flex align-items-center">
+                    <span class="cursor-pointer" (click)="goToFacebook()">
+                        <i class="fab fa-facebook-f facebook  ms-1"></i>
+                    </span>
+                    <span class="cursor-pointer" (click)="goToInstagram()">
+                        <i class="fa-brands fa-instagram text-white ms-2 me-1"></i>
+                    </span>
+                    <span class="cursor-pointer me-1 ms-1" (click)="goToSnapChat()">
+                        <i class="fa-brands fa-snapchat snapchat me-1 ms-1"></i>
+                    </span>
+                    <span class="cursor-pointer me-1 ms-1" (click)="goToYoutube()">
+                        <i class="fa-brands fa-youtube youtube me-1 ms-1"></i>
+                    </span>
+                    <span class="cursor-pointer me-1 ms-1" (click)="goToTikTok()">
+                        <i class="fa-brands fa-tiktok text-white me-1 ms-1"></i>
+                    </span>
+                    <span class="cursor-pointer me-1 ms-1" (click)="goToLinkedin()">
+                        <i class="fa-brands fa-linkedin-in linkedin me-1 ms-1"></i>
+                    </span>
+                </div>
+                <div class="ms-2">
+                    <!-- Display Arabic button if language is English -->
+                    <button class="bg-transparent border-0 border text-main me-2" *ngIf="language === 'en'" (click)="switchLanguage('ar')">عربي</button>
+                    <!-- Display English button if language is Arabic -->
+                    <button class="bg-transparent border-0 border text-main me-2" *ngIf="language === 'ar'" (click)="switchLanguage('en')">{{ 'NAVBAR.English' | translate }}</button> 
+                    <!-- <button class="bg-transparent border-0 border text-main me-2" *ngIf="language === 'ar'" (click)="switchLanguage('en')">English</button> -->
+
+                  </div>
+            </div>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,78 @@
+<!-- Footer -->
+<div class="container-fluid bg-color border-top" [dir]="language === 'ar' ? 'rtl' : 'ltr'">
+  <div class="container p-md-5">
+    <div class="row justify-content-center">
+      <!-- Helpful Links Section -->
+      <div class="col-md-4 d-flex flex-column align-items-center text-center mb-4">
+        <h3 class="text-color fw-bold h5">{{ language === 'ar' ? 'روابط قد تفيدك' : 'Helpful Links' }}</h3>
+        <span><a routerLink="AboutUs/AboutGhaya" class="text-decoration-underline footer">{{ language === 'ar' ? 'من نحن' : 'About Us' }}</a></span>
+        <span><a routerLink="ContactUs" class="text-decoration-underline footer">{{ language === 'ar' ? 'اتصل بنا' : 'Contact Us' }}</a></span>
+        <span><a routerLink="Policy" class="text-decoration-underline footer">{{ language === 'ar' ? 'سياستنا' : 'Our Policy' }}</a></span>
+        <span><a routerLink="FoundersAndBoardMembers" class="text-decoration-underline footer">{{ language === 'ar' ? 'المؤسسين & أعضاء مجلس الإدارة': 'Founders & Board Members' }}</a></span>
+      </div>
+
+      <!-- Social Media Section -->
+      <div class="col-md-4 d-flex flex-column align-items-center text-center mb-4">
+        <h3 class="text-color fw-bold h5">{{ language === 'ar' ? 'مواقع التواصل الاجتماعي' : 'Socials' }}</h3>
+        <div class="d-flex flex-wrap justify-content-center">
+          <div class="col-2 col-md-4 d-flex justify-content-center mb-2">
+            <span class="fa-stack fa-1x cursor-pointer" (click)="goToFacebook()">
+              <i class="fa-solid fa-square text-primary fa-stack-2x"></i>
+              <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+            </span>
+          </div>
+          <div class="col-2 col-md-4 d-flex justify-content-center mb-2">
+            <span class="fa-stack fa-1x cursor-pointer" (click)="goToInstagram()">
+              <i class="fa-solid fa-square instagram-color fa-stack-2x"></i>
+              <i class="fa-brands fa-instagram fa-stack-1x fa-inverse"></i>
+            </span>
+          </div>
+          <div class="col-2 col-md-4 d-flex justify-content-center mb-2">
+            <span class="fa-stack fa-1x cursor-pointer" (click)="goToSnapChat()">
+              <i class="fa-solid fa-square snapchat-color fa-stack-2x"></i>
+              <i class="fa-brands fa-snapchat text-black fa-stack-1x fa-inverse"></i>
+            </span>
+          </div>
+          <div class="col-2 col-md-4 d-flex justify-content-center mb-2">
+            <span class="fa-stack fa-1x cursor-pointer" (click)="goToYoutube()">
+              <i class="fa-solid fa-square text-danger fa-stack-2x"></i>
+              <i class="fa-brands fa-youtube fa-stack-1x fa-inverse"></i>
+            </span>
+          </div>
+          <div class="col-2 col-md-4 d-flex justify-content-center mb-2">
+            <span class="fa-stack fa-1x cursor-pointer" (click)="goToTikTok()">
+              <i class="fa-solid fa-square text-black fa-stack-2x"></i>
+              <i class="fa-brands fa-tiktok text-white fa-stack-1x fa-inverse"></i>
+            </span>
+          </div>
+          <div class="col-2 col-md-4 d-flex justify-content-center mb-2">
+            <span class="fa-stack fa-1x cursor-pointer" (click)="goToLinkedin()">
+              <i class="fa-solid fa-square text-primary fa-stack-2x"></i>
+              <i class="fa-brands fa-linkedin-in fa-stack-1x fa-inverse"></i>
+            </span>
+          </div>
+        </div>
+        <div class="row mt-3 justify-content-center">
+          <a  routerLink="Home" routerLinkActive="router-link-active" class="cursor-pointer p-0">ghayaeg&#64;gmail.com</a>
+        </div>
+      </div>
+
+      <!-- Download Section -->
+      <div class="col-md-4 d-flex flex-column align-items-center text-center mb-4">
+        <h3 class="text-color fw-bold h5">{{ language === 'ar' ? 'تحميل' : 'Download' }}</h3>
+        <a (click)="goToGooglePlay()"><img src="./assets/Images/GooglePlayIcon.png" alt="{{ language === 'ar' ? 'رابط جوجل بلاي' : 'Google Play Link' }}" class="cursor-pointer"></a>
+        <a (click)="goToAppStore()"><img src="./assets/Images/AppStoreIcon.png" alt="{{ language === 'ar' ? 'رابط آب ستور' : 'App Store Link' }}" class="cursor-pointer mt-2"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="container-fluid bg-main p-1">
+  <h6 class="text-center text-main p-1 mt-2">{{ language === 'ar' ? '© جميع الحقوق محفوظة لمؤسسة غايا للنشر ٢٠٢٤' : '© All rights reserved for Ghaya Publishing House 2024' }}</h6>
+  <button *ngIf="showScrollToTopButton" (click)="scrollToTop()" class="scroll-to-top-btn border rounded-1">
+    <i class="fa-solid fa-arrow-up "></i>
+  </button>
+</div>

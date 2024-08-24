@@ -1,0 +1,77 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); */
+:root {
+    --main-color: #E62E2D;
+    --light-color: #f0f3f2;
+    --shadow: rgb(94, 167, 26) 0px 25px 50px -12px;
+    --font-family: 'Encode Sans Expanded', sans-serif;
+    --background-color: #000000;
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+
+/* RTL styles */
+[dir="rtl"] body {
+  text-align: right; /* Override for RTL */
+}
+  a {
+    color: var(--light-color) !important;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .font-sm {
+    font-size: 14px;
+  }
+  
+  .text-main {
+    color: var(--light-color) !important;
+  }
+  
+  .bg-main {
+    background-color: var(--background-color) !important;
+  }
+
+  /* Default LTR styles */
+.navbar-nav {
+    margin-left: auto;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-left: 1rem;
+  }
+  
+  .social-media {
+    margin-left: auto;
+  }
+  
+  /* RTL styles */
+  .rtl .navbar-nav {
+    margin-right: auto;
+  }
+  
+  .rtl .navbar-nav .nav-item {
+    margin-right: 1rem;
+  }
+  
+  .rtl .social-media {
+    margin-right: auto;
+  }
+  
+  .rtl .navbar-toggler {
+    margin-left: auto;
+  }
+  @font-face {
+    font-family: 'Tajawal';
+    src: url('/assets/Fonts/Tajawal-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body{
+    background-color: var(--background-color);  
+    font-family:   'Tajawal', sans-serif;
+    text-align: left;
+  }

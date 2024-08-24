@@ -1,0 +1,40 @@
+<div class="container-fluid bg-main py-5" [attr.dir]="language === 'ar' ? 'rtl' : 'ltr'">
+    <div class="container mx-auto border-bottom border-secondary">
+      <!-- Our Goals Section -->
+      <h2 class="text-center text-danger fw-bold mb-3">{{ 'OUR_GOALS' | translate }}</h2>
+      <div class="mb-5 justify-content-center" >
+        <div class="text-light">
+          <p class="text-light lead" [innerHTML]="'CONTENT.OUR_GOALS' | translate | newlineToBr"></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="container mx-auto border-bottom border-secondary py-5">
+      <div class="row">
+        <h2 class="text-center text-danger fw-bold mb-3">{{ 'SHORT_TERM_GOALS' | translate }}</h2>
+        <div class="mb-5 justify-content-center" >
+          <p class="text-light lead" [innerHTML]="'CONTENT.SHORT_TERM_GOALS' | translate | newlineToBr"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mx-auto border-bottom border-secondary py-5">
+        <div class="row">
+          <h2 class="text-center text-danger fw-bold mb-3">{{ 'MEDIUM_TERM_GOALS' | translate }}</h2>
+          <div class="mb-5 justify-content-center" >
+            <p class="text-light lead" [innerHTML]="'CONTENT.MEDIUM_TERM_GOALS' | translate | newlineToBr"></p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container mx-auto py-5">
+        <div class="row">
+          <h2 class="text-center text-danger fw-bold mb-3" >{{ 'LONG_TERM_GOALS' | translate }}</h2>
+          <div class="mb-5 justify-content-center">
+            <p class="text-light lead" [innerHTML]="'CONTENT.LONG_TERM_GOALS' | translate | newlineToBr"></p>
+          </div>
+        </div>
+      </div>
+  </div>
+  

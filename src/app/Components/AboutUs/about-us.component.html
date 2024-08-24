@@ -1,0 +1,29 @@
+
+<!-- about-us.component.html -->
+<div class="container-fluid bg-main py-5 border-bottom border-secondary"  [attr.dir]="language === 'ar' ? 'rtl' : 'ltr'">
+  <div class="container mx-auto border-bottom border-secondary W-50">
+    <!-- ABOUT US Section -->
+    <h2 id="AboutGhaya" class="text-center text-danger fw-bold mb-3">{{ 'ABOUT_US' | translate }}</h2>
+    <div class="mb-5 justify-content-center">
+      <div class="text-light">
+        <p class="text-light lead" [innerHTML]="'CONTENT.ABOUT_US' | translate | newlineToBr"></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mx-auto W-50 py-5" [attr.dir]="language === 'ar' ? 'rtl' : 'ltr'">
+    <!-- WHO WE ARE Section -->
+    <h2 id="WhoWeAre" class="text-center text-danger fw-bold mb-3">{{ 'WHO_WE_ARE' | translate }}</h2>
+    <div class="mb-5 justify-content-center">
+      <div class="text-light">
+        <p class="text-light lead" [innerHTML]="'CONTENT.WHO_WE_ARE' | translate | newlineToBr"></p>
+      </div>
+    </div>
+
+   
+  </div>
+</div>
+
+<app-vision></app-vision>
+
+

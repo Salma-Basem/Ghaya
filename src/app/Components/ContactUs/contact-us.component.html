@@ -1,0 +1,17 @@
+<div class="container-fluid bg-main py-5" [attr.dir]="language === 'ar' ? 'rtl' : 'ltr'">
+    <div class="container-fluid bg-main py-5">
+        <div class="container mx-auto W-50">
+          <div class="info-item">
+            <i class="fa-solid fa-location-dot fa-2xl text-main ms-2 me-2"></i>
+            <span class="text-white h4 mb-0" [innerHTML]="'ADDRESS' | translate | newlineToBr"></span>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-phone fa-2xl text-main ms-2 me-2"></i>
+            <span class="text-white h5 mb-0" >
+              {{ language === 'ar' ? '+٢ ٢٥٠ ٥٥٥٠١' : '+2 250 55501' }}
+            </span>
+          </div>
+        </div>
+      </div>
+      
+</div>

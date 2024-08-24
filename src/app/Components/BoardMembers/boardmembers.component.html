@@ -1,0 +1,122 @@
+<div class="container-fluid bg-main py-5  "  [attr.dir]="language === 'ar' ? 'rtl' : 'ltr'">
+
+      <div class="container  py-5">
+    
+        <h3 class="text-danger h2 text-center" [innerHTML]="'BOARD_MEMBERS' | translate | newlineToBr"></h3>
+        <div class="row py-3">
+          
+          <div class="col-md-6 mb-4">
+            <div class="d-flex flex-column justify-content-start align-items-start rounded-3 p-5">
+              <h2 class="text-main " [innerHTML]="'MEMBERS.MEMBER1.NAME' | translate | newlineToBr"></h2>
+              <h3 class="text-main h5" [innerHTML]="'MEMBERS.MEMBER1.ROLE' | translate | newlineToBr"></h3>
+              <button class="btn btn-primary mb-3" (click)="toggleMember1Visibility()">
+                {{ showMoreMember1 ? ('READ_LESS' | translate) : ('READ_MORE' | translate) }}
+              </button>
+              <ul class="custom-list mb-0" [ngClass]="{'show': showMoreMember1}">
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER1.QUALIFICATION' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER1.CURRENT_JOB' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER1.PREVIOUS_EXPERIENCE.EXPERIENCE_1' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER1.PREVIOUS_EXPERIENCE.EXPERIENCE_2' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER1.PREVIOUS_EXPERIENCE.EXPERIENCE_3' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER1.PREVIOUS_EXPERIENCE.EXPERIENCE_4' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER1.PREVIOUS_EXPERIENCE.EXPERIENCE_5' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER1.PREVIOUS_EXPERIENCE.EXPERIENCE_6' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER1.PREVIOUS_EXPERIENCE.EXPERIENCE_7' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER1.PREVIOUS_EXPERIENCE.EXPERIENCE_8' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER1.PREVIOUS_EXPERIENCE.EXPERIENCE_9' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER1.PREVIOUS_EXPERIENCE.EXPERIENCE_10' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER1.PREVIOUS_EXPERIENCE.EXPERIENCE_11' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER1.PREVIOUS_EXPERIENCE.EXPERIENCE_12' | translate | newlineToBr"></li>             
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER1.PREVIOUS_EXPERIENCE.EXPERIENCE_13' | translate | newlineToBr"></li>
+              </ul>
+            </div>
+          </div>
+      
+          <!-- member2 Section -->
+          <div class="col-md-6 mb-4">
+            <div class="d-flex flex-column justify-content-start align-items-start rounded-3 p-5">
+              <h2 class="text-main " [innerHTML]="'MEMBERS.MEMBER2.NAME' | translate | newlineToBr"></h2>
+              <h3 class="text-main h5" [innerHTML]="'MEMBERS.MEMBER2.ROLE' | translate | newlineToBr"></h3>
+              <button class="btn btn-primary mb-3" (click)="toggleMember2Visibility()">
+                {{ showMoreMember2 ? ('READ_LESS' | translate) : ('READ_MORE' | translate) }}
+              </button>
+              <ul class="custom-list mb-0" [ngClass]="{'show': showMoreMember2}">
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER2.JOB' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER2.TITLE' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER2.INTERESTS' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER2.POSITIONS' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER2.HONORS' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER2.PUBLICATIONS' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER2.ACADEMIC_WORK' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER2.POETRY' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER2.WEEKLY_ARTICLE' | translate | newlineToBr"></li>
+
+                
+              </ul>
+            </div>
+          </div> 
+    
+           <!-- member3 Section  -->
+           <div class="col-md-6 mb-4">
+            <div class="d-flex flex-column justify-content-start align-items-start rounded-3 p-5">
+              <h2 class="text-main " [innerHTML]="'MEMBERS.MEMBER3.NAME' | translate | newlineToBr"></h2>
+              <h3 class="text-main h5 " [innerHTML]="'MEMBERS.MEMBER3.ROLE' | translate | newlineToBr"></h3>
+              <button class="btn btn-primary mb-3" (click)="toggleMember3Visibility()">
+                {{ showMoreMember3 ? ('READ_LESS' | translate) : ('READ_MORE' | translate) }}
+              </button>
+              <ul class="custom-list mb-0" [ngClass]="{'show': showMoreMember3}">
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER3.QUALIFICATIONS.BACHELOR_OF_ARTS_PHILOSOPHY' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER3.QUALIFICATIONS.BACHELOR_OF_LAW' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER3.QUALIFICATIONS.LICENSE_ISLAMIC_THOUGHT' | translate | newlineToBr"></li>
+
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER3.WORK_EXPERIENCE.ROLE_1' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER3.WORK_EXPERIENCE.ROLE_2' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER3.WORK_EXPERIENCE.ROLE_3' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER3.WORK_EXPERIENCE.ROLE_4' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER3.WORK_EXPERIENCE.ROLE_5' | translate | newlineToBr"></li>
+
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER3.ACTIVITIES' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER3.PUBLICATIONS.PUBLICATION_1' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER3.PUBLICATIONS.PUBLICATION_2' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER3.PUBLICATIONS.PUBLICATION_3' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER3.PUBLICATIONS.PUBLICATION_4' | translate | newlineToBr"></li>
+                <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER3.PUBLICATIONS.PUBLICATION_5' | translate | newlineToBr"></li>
+              
+              </ul>
+            </div>
+          </div>
+      
+        <!-- member4 Section -->
+        <div class="col-md-6 mb-4">
+          <div class="d-flex flex-column justify-content-start align-items-start rounded-3 p-5">
+            <h2 class="text-main " [innerHTML]="'MEMBERS.MEMBER4.NAME' | translate | newlineToBr"></h2>
+            <h3 class="text-main h5" [innerHTML]="'MEMBERS.MEMBER4.ROLE' | translate | newlineToBr"></h3>
+            <button class="btn btn-primary mb-3" (click)="toggleViceMember4Visibility()">
+              {{ showMoreMember4 ? ('READ_LESS' | translate) : ('READ_MORE' | translate) }}
+            </button>
+            <ul class="custom-list mb-0" [ngClass]="{'show': showMoreMember4}">
+              <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER4.DEGREES' | translate | newlineToBr"></li>
+              <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER4.MEMBERSHIPS.MEMBERSHIP_1' | translate | newlineToBr"></li>
+              <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER4.MEMBERSHIPS.MEMBERSHIP_2' | translate | newlineToBr"></li>
+              <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER4.MEMBERSHIPS.MEMBERSHIP_3' | translate | newlineToBr"></li>
+              <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER4.MEMBERSHIPS.MEMBERSHIP_4' | translate | newlineToBr"></li>
+              <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER4.MEMBERSHIPS.MEMBERSHIP_5' | translate | newlineToBr"></li>
+              <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER4.MEMBERSHIPS.MEMBERSHIP_6' | translate | newlineToBr"></li>
+              <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER4.CONFERENCES' | translate | newlineToBr"></li>
+              <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER4.JUDGING' | translate | newlineToBr"></li>
+              <li class="text-main mb-2 animate-fade-in" [innerHTML]="'MEMBERS.MEMBER4.PUBLICATIONS' | translate | newlineToBr"></li>
+             
+              
+            </ul>
+          </div>
+        </div> 
+  
+         
+        </div>
+      </div>
+      
+  </div>
+  
+
+  
+

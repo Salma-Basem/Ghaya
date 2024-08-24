@@ -1,0 +1,124 @@
+<!--Home Component-->
+
+<!--First Section With Background -->
+  <div class="background-container d-flex align-items-center justify-content-center pb-3"[attr.dir]="language === 'ar' ? 'rtl' : 'ltr'">
+    <div class="overlay d-flex flex-column align-items-center justify-content-center">
+      <div class="title-color fa-2x ">{{ language === 'en' ?' مؤسسة    غايا   للابداع ' : 'Ghaya Foundation for Creativity ' }}</div>
+      <div class="title-color fa-2x border-top  border-color">{{ language === 'en' ?'Ghaya Foundation for Creativity ':' مؤسسة  غايا    للابداع '  }}</div>
+
+
+    </div>
+</div>
+
+<div id="carouselExampleIndicators" class="carousel slide bg-main pt-5 pb-5" data-bs-ride="carousel">
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="container mx-auto row align-items-center">
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <img src="./assets/Images/MoradMaher.jpeg" class="img-fluid w-75" alt="Founder Image">
+        </div>
+        <div class="col-md-8 d-flex flex-column align-items-start justify-content-center text-white">
+          <h2 class="mb-3" [innerHTML]="'FOUNDER_INFO.NAME' | translate | newlineToBr"></h2>
+          <h3 class="mb-5" [innerHTML]="'FOUNDER_INFO.TITLE' | translate | newlineToBr"></h3>
+          <p class="w-75 mb-4" [innerHTML]="'FOUNDER_INFO.GHAYA_FOUNDATION' | translate | newlineToBr"></p>
+          <a routerLink="/FoundersAndBoardMembers">
+            <button class="btn btn-primary p-2 mt-2" [innerHTML]="'KNOW_MORE_ABOUT' | translate | newlineToBr"></button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="container mx-auto row align-items-center">
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <img src="./assets/Images/AmalRabie.JPG" class="img-fluid w-75" alt="Vice CEO Image">
+        </div>
+        <div class="col-md-8 d-flex flex-column align-items-start justify-content-center text-white">
+          <h2 class="mb-3" [innerHTML]="'VICE_CEO.NAME' | translate | newlineToBr"></h2>
+          <h3 class="mb-4 h5" [innerHTML]="'VICE_CEO.TITLE' | translate | newlineToBr"></h3>
+          <p class="w-75 mb-4" [innerHTML]="'VICE_CEO.BIO' | translate | newlineToBr"></p>
+          <a routerLink="/FoundersAndBoardMembers">
+            <button class="btn btn-primary p-2 mt-2" [innerHTML]="'KNOW_MORE_ABOUT' | translate | newlineToBr"></button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="container mx-auto row align-items-center">
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <img src="./assets/Images/HaythamAlhajaly.JPG" class="img-fluid w-75" alt="Member of the Board of Directors Image">
+        </div>
+        <div class="col-md-8 d-flex flex-column align-items-start justify-content-center text-white">
+          <h2 class="mb-3" [innerHTML]="'MEMBERS.MEMBER2.NAME' | translate | newlineToBr"></h2>
+          <h3 class="mb-5 h5" [innerHTML]="'MEMBERS.MEMBER2.ROLE' | translate | newlineToBr"></h3>
+          <p class="w-75 mb-4" [innerHTML]="'MEMBERS.MEMBER2.JOB' | translate | newlineToBr"></p>
+          <a routerLink="/FoundersAndBoardMembers">
+            <button class="btn btn-primary p-2 mt-2" [innerHTML]="'KNOW_MORE_ABOUT' | translate | newlineToBr"></button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="container mx-auto row align-items-center">
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <img src="./assets/Images/MustafaElFaramawy.JPG" class="img-fluid w-75" alt="Member of the Board of Directors Image">
+        </div>
+        <div class="col-md-8 d-flex flex-column align-items-start justify-content-center text-white">
+          <h2 class="mb-3" [innerHTML]="'MEMBERS.MEMBER1.NAME' | translate | newlineToBr"></h2>
+          <h3 class="mb-5 h5" [innerHTML]="'MEMBERS.MEMBER1.ROLE' | translate | newlineToBr"></h3>
+          <p class="w-75 mb-4" [innerHTML]="'MEMBERS.MEMBER1.CURRENT_JOB' | translate | newlineToBr"></p>
+
+          <a routerLink="/FoundersAndBoardMembers">
+            <button class="btn btn-primary p-2 mt-2" [innerHTML]="'KNOW_MORE_ABOUT' | translate | newlineToBr"></button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item ">
+      <div class="container mx-auto row align-items-center">
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <img src="./assets/Images/EmadAlAdly.JPG" class="img-fluid w-75" alt="Member of the Board of Directors Image">
+        </div>
+        <div class="col-md-8 d-flex flex-column align-items-start justify-content-center text-white">
+          <h2 class="mb-3" [innerHTML]="'MEMBERS.MEMBER3.NAME' | translate | newlineToBr"></h2>
+          <h3 class="mb-5 h5" [innerHTML]="'MEMBERS.MEMBER3.ROLE' | translate | newlineToBr"></h3>
+          <p class="w-75 mb-4" [innerHTML]="'MEMBERS.MEMBER3.WORK_EXPERIENCE.ROLE_2' | translate | newlineToBr"></p>
+          <a routerLink="/FoundersAndBoardMembers">
+            <button class="btn btn-primary p-2 mt-2" [innerHTML]="'KNOW_MORE_ABOUT' | translate | newlineToBr"></button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item ">
+      <div class="container mx-auto row align-items-center">
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <img src="./assets/Images/NancyIbrahim.JPG" class="img-fluid w-75" alt="Member of the Board of Directors Image">
+        </div>
+        <div class="col-md-8 d-flex flex-column align-items-start justify-content-center text-white">
+          <h2 class="mb-3" [innerHTML]="'MEMBERS.MEMBER4.NAME' | translate | newlineToBr"></h2>
+          <h3 class="mb-5 h5" [innerHTML]="'MEMBERS.MEMBER4.ROLE' | translate | newlineToBr"></h3>
+          <p class="w-75 mb-4" [innerHTML]="'MEMBERS.MEMBER4.DEGREES' | translate | newlineToBr"></p>
+          <a routerLink="/FoundersAndBoardMembers">
+            <button class="btn btn-primary p-2 mt-2" [innerHTML]="'KNOW_MORE_ABOUT' | translate | newlineToBr"></button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+

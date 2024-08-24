@@ -1,0 +1,12 @@
+<div class="container-fluid bg-main py-5 border-bottom border-secondary" [attr.dir]="language === 'ar' ? 'rtl' : 'ltr'">
+    <div class="container mx-auto W-50">
+      <!-- OUR POLICY Section -->
+      <h2 class="text-center text-danger fw-bold mb-3">{{ 'OUR_POLICY' | translate }}</h2>
+      <div class="mb-5 justify-content-center">
+        <div class="text-light">
+          <p class="text-light lead" [innerHTML]="'CONTENT.POLICY' | translate | newlineToBr"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
