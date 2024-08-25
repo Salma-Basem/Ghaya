@@ -56,5 +56,39 @@ h2 {
       background-size: 115%; /* Zoom in effect (adjust as needed) */
   }
 }
+/* Ensure the carousel container and items are centered */
+.carousel-item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Add this to center vertically if needed */
+}
 
+/* Center image in small screens */
+.image-column {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center vertically if needed */
+  text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .carousel-item-container {
+    flex-direction: column; /* Stack image and text vertically */
+  }
+
+  .image-column {
+    margin-bottom: 20px; /* Space between image and text */
+  }
+
+  .text-main {
+    text-align: center; /* Center text for small screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .text-main {
+    text-align: start; /* Align text to the start on larger screens */
+  }
+}
 
