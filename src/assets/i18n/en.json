@@ -1,149 +1,153 @@
 {
     
-    "ABOUT_US": "About Us",
-    "WHO_WE_ARE":"Who We Are ",
-    "OUR_VISION": "Our Vision",
-    "ABOUT_GHAYA":"About Ghaya",
-    "OUR_GOALS": "Our Goals",
-    "SHORT_TERM_GOALS": "Short-Term Goals (0-6 months)",
-    "MEDIUM_TERM_GOALS": "Medium-Term Goals (6-18 months)",
-    "LONG_TERM_GOALS": "Long-Term Goals (18-30 months)",
-    "CONTENT": {
-        "ABOUT_US":"Creative Organization\n\nIn light of the changing contexts that govern the relationship between creativity and society...\nAnd amid the global openness, the multiplicity of media, and the information revolution...\nAnd on the foundation of human heritage that has evolved and diversified through history through the creativity of minds that did not limit themselves to mere imitation of the past,\nImaginations that envisioned horizons of goodness and beauty, and hearts filled with love, striving for their own freedom.\n\nAt a pivotal moment in human history, a crossroads where humanity chooses its future.\n\n",
-      "WHO_WE_ARE": "From this point...\n(Gaia) is established as a new resource for creators, drawing from all previous experiences in an attempt to develop them.\nIt seeks to create a new relationship between the creator and the audience, based on respect for both public and private tastes,\nAnd for the freedom in the elements of creativity and its critique.\nIt does not aim to adopt preconceived negations but rather to establish the principle of accepting others, even if they are different.\n\nIt works towards building a new present that is connected to its past while striving for creativity that aligns with its future.\nIt aims to affirm Egypt's presence in the Arab and African cultural center, with a foundation of belonging and interaction,\nAnd to create an Arab cultural presence on the global stage.\n\nIt seeks to dive into the depths of light to extract the hidden pearls from all our rich regions by itself.\n\n(Gaia)... \nA new beginning for a future of creativity.",
-      "OUR_VISION": "Creativity, in its broadest sense, is a cultural value that reflects the history, present, and future of a land before its people.\n\nPreserving creativity, nurturing creators, and advancing creative forms and patterns is a fundamental human duty for anyone with the means to support and develop it.\n\nIt is an innate responsibility that springs from the sources of beauty and the realm of imagination.",
-      "OUR_GOALS": "1. Place the creator in their rightful and deserving position, as they were created to innovate. We must work to extend the reach of their creativity as far as possible by creating channels of communication between their work and the public.\n2. Reach the audience with a new, more contemporary, and engaging approach, focusing on finding innovative and varied methods for audience engagement.\n3. Strive to present the creativity of our creators to both Arab and non-Arab audiences, creating touchpoints with others, and increasing the presence of Arabic content on the internet to truly reflect the qualitative significance of Arab culture.\n4. Emphasize creative translations to expand the reach of our heritage and creativity into broader spaces.\n5. Build bridges of communication between our creators and their readers, both domestically and internationally.\n6. Hold our critics and journalists accountable by highlighting and promoting every piece of creativity that deserves recognition and widespread attention.\n7. Target all forms of creative expression—intellectual, cultural, philosophical, and scientific—both auditory and visual.\n8. Develop unprecedented and innovative strategies for marketing, ranging from local saturation to regional and beyond.\n9. Ensure that rural, popular, and remote areas receive special marketing attention, placing them at the forefront of selective and strategic marketing efforts.\n10. Establish agreements and protocols with Arab and international creative institutions to invite our creators to participate in global events and activities, fostering intellectual exchange and collaboration.\n11. Commit to comprehensive media marketing of creative products and creators in a dignified and innovative manner, ensuring the highest quality of creative output across all presentation forms.\n12. Diversify conventional forms of creativity and offer more interactive proposals that align with the current pace and demands of the era.",
-  "SHORT_TERM_GOALS": "1. Establish a print publishing house known for its seriousness, professionalism, content quality, and book production.\n2. Launch the \"Ghaya\" podcast, covering various community, entertainment, cultural, artistic, and literary topics.\n3. Create a specialized department for strategic goals, including organizing events, competitions, and various creative festivals (literary and artistic competitions).\n4. Launch and activate the \"Ghaya\" creative app to include readable, audible, and visual content that aligns with all forms of creativity.\n5. Activate the \"Ghaya\" channel on YouTube and aim to reach a substantial interactive audience.\n6. Position \"Ghaya\" as a prominent creative brand both domestically and internationally, recognized for its credibility, professionalism, and proper selection of works and projects.\n7. Organize training activities, academic events, and creative workshops open to all forms of creativity in Egypt and the Arab countries.",
-  "MEDIUM_TERM_GOALS": "1. Organize training activities, academic events, and creative workshops that are open to all forms of creativity in Egypt and the Arab countries.\n2. Establish and activate collaboration protocols and mutual agreements with cultural and creative entities in Egypt, the Arab countries, and beyond.\n3. Create parallel entities to \"Ghaya\" in Arab countries, and subsequently expand to other regions.\n4. Launch a project for delivering cultural products online and provide various delivery methods to support this goal.",
-  "LONG_TERM_GOALS": "1. Establish the \"Ghaya\" Academy of Creative Sciences.\n2. Create a series of libraries and bookstores in Cairo and other governorates.\n3. Set up a dedicated printing press for the \"Ghaya\" organization."
+  "ABOUT_US": "About Us",
+  "WHO_WE_ARE":"Who We Are ",
+  "OUR_VISION": "Our Vision",
+  "ABOUT_GHAYA":"About Ghaya",
+  "OUR_GOALS": "Our Goals",
+  "SHORT_TERM_GOALS": "Short-Term Goals (0-6 months)",
+  "MEDIUM_TERM_GOALS": "Medium-Term Goals (6-18 months)",
+  "LONG_TERM_GOALS": "Long-Term Goals (18-30 months)",
+  "CONTENT": {
+      "ABOUT_US":"Creative Organization\n\nIn light of the changing contexts that govern the relationship between creativity and society...\nAnd amid the global openness, the multiplicity of media, and the information revolution...\nAnd on the foundation of human heritage that has evolved and diversified through history through the creativity of minds that did not limit themselves to mere imitation of the past,\nImaginations that envisioned horizons of goodness and beauty, and hearts filled with love, striving for their own freedom.\n\nAt a pivotal moment in human history, a crossroads where humanity chooses its future.\n\n",
+    "WHO_WE_ARE": "From this point...\n(Gaia) is established as a new resource for creators, drawing from all previous experiences in an attempt to develop them.\nIt seeks to create a new relationship between the creator and the audience, based on respect for both public and private tastes,\nAnd for the freedom in the elements of creativity and its critique.\nIt does not aim to adopt preconceived negations but rather to establish the principle of accepting others, even if they are different.\n\nIt works towards building a new present that is connected to its past while striving for creativity that aligns with its future.\nIt aims to affirm Egypt's presence in the Arab and African cultural center, with a foundation of belonging and interaction,\nAnd to create an Arab cultural presence on the global stage.\n\nIt seeks to dive into the depths of light to extract the hidden pearls from all our rich regions by itself.\n\n(Gaia)... \nA new beginning for a future of creativity.",
+    "OUR_VISION": "Creativity, in its broadest sense, is a cultural value that reflects the history, present, and future of a land before its people.\n\nPreserving creativity, nurturing creators, and advancing creative forms and patterns is a fundamental human duty for anyone with the means to support and develop it.\n\nIt is an innate responsibility that springs from the sources of beauty and the realm of imagination.",
+    "OUR_GOALS": "1. Place the creator in their rightful and deserving position, as they were created to innovate. We must work to extend the reach of their creativity as far as possible by creating channels of communication between their work and the public.\n2. Reach the audience with a new, more contemporary, and engaging approach, focusing on finding innovative and varied methods for audience engagement.\n3. Strive to present the creativity of our creators to both Arab and non-Arab audiences, creating touchpoints with others, and increasing the presence of Arabic content on the internet to truly reflect the qualitative significance of Arab culture.\n4. Emphasize creative translations to expand the reach of our heritage and creativity into broader spaces.\n5. Build bridges of communication between our creators and their readers, both domestically and internationally.\n6. Hold our critics and journalists accountable by highlighting and promoting every piece of creativity that deserves recognition and widespread attention.\n7. Target all forms of creative expression—intellectual, cultural, philosophical, and scientific—both auditory and visual.\n8. Develop unprecedented and innovative strategies for marketing, ranging from local saturation to regional and beyond.\n9. Ensure that rural, popular, and remote areas receive special marketing attention, placing them at the forefront of selective and strategic marketing efforts.\n10. Establish agreements and protocols with Arab and international creative institutions to invite our creators to participate in global events and activities, fostering intellectual exchange and collaboration.\n11. Commit to comprehensive media marketing of creative products and creators in a dignified and innovative manner, ensuring the highest quality of creative output across all presentation forms.\n12. Diversify conventional forms of creativity and offer more interactive proposals that align with the current pace and demands of the era.",
+"SHORT_TERM_GOALS": "1. Establish a print publishing house known for its seriousness, professionalism, content quality, and book production.\n2. Launch the \"Ghaya\" podcast, covering various community, entertainment, cultural, artistic, and literary topics.\n3. Create a specialized department for strategic goals, including organizing events, competitions, and various creative festivals (literary and artistic competitions).\n4. Launch and activate the \"Ghaya\" creative app to include readable, audible, and visual content that aligns with all forms of creativity.\n5. Activate the \"Ghaya\" channel on YouTube and aim to reach a substantial interactive audience.\n6. Position \"Ghaya\" as a prominent creative brand both domestically and internationally, recognized for its credibility, professionalism, and proper selection of works and projects.\n7. Organize training activities, academic events, and creative workshops open to all forms of creativity in Egypt and the Arab countries.",
+"MEDIUM_TERM_GOALS": "1. Organize training activities, academic events, and creative workshops that are open to all forms of creativity in Egypt and the Arab countries.\n2. Establish and activate collaboration protocols and mutual agreements with cultural and creative entities in Egypt, the Arab countries, and beyond.\n3. Create parallel entities to \"Ghaya\" in Arab countries, and subsequently expand to other regions.\n4. Launch a project for delivering cultural products online and provide various delivery methods to support this goal.",
+"LONG_TERM_GOALS": "1. Establish the \"Ghaya\" Academy of Creative Sciences.\n2. Create a series of libraries and bookstores in Cairo and other governorates.\n3. Set up a dedicated printing press for the \"Ghaya\" organization."
 ,"POLICY": "As a creative institution, Gaia is committed to addressing the needs and satisfying the expectations of our clients—including creatives, recipients, and affiliates—by providing a fertile environment for creativity, engagement, and productivity. Gaia pledges to:\n\n- Environment for Creativity: Provide the appropriate environment necessary for the creative team to achieve their goals.\n- Creative Value Selection: Carefully choose creative content using well-considered scientific criteria for dissemination or presentation to the audience.\n- Creative Templates: Offer creative templates that meet high standards of quality, value, accessibility, and ease of interaction for our audience.\n- Fair Relations: Maintain equitable and fair relationships with all creatives, ensuring their contributions are recognized and valued.\n- Performance Evaluation: Continuously assess performance and task completion rates to ensure efficiency and effectiveness.\n- Talent Discovery: Actively seek out and provide opportunities for discovering and nurturing new, young creative talents.\n- Global Trends: Diligently and proactively strive to stay current with global creative trends and movements."      
-    },
-    
-  "NAVBAR": {
-    "HOME": "Home",
-    "ABOUT_US": "About Us",
-    "ABOUT_GHAYA":"About Ghaya",
-    "OUR_VISION":"Our Vision",
-    "OUR_GOALS":"Our Goals",
-    "CONTACT_US": "Contact Us",
-    "GET_STARTED": "Get Started",
-    "COMPETITIONS": "Competitions",
-    "English": "English"
-    
   },
-  "ADDRESS":"4 Takseem Al Togareen - 9 street - front of CIB Bank - Al Mokattam - Cairo",
-  "CONTACT_US":"Contact Us",
-  "FOUNDERS":"Meet Our Founders",
-  "FOUNDER_INFO": {
-    "NAME":"Morad Maher",
-    "TITLE":"CEO-Founder",
-    "GHAYA_FOUNDATION": "Founder and Chairman of the Board of Ghaya Foundation for Creativity.",
-    "BEYOND_VISION": "Founder and Chairman of Beyond Vision Company Consulting and Digital Content Production in the United Arab Emirates.",
-    "EDUCATION": "Graduate of the Military Technical College.",
-    "UNION_MEMBERSHIPS": {
-      "WRITERS_UNION": "Member of the Union of Egyptian and Arab Writers.",
-      "PUBLISHERS_UNION": "Member of the Publishers’ Union.",
-      "ENGINEERS_SYNDICATE": "Member of the Engineers’ Syndicate.",
-      "VETERANS_ASSOCIATION": "Member of the Veterans’ Association."
-    },
-    "HONORS": {
-      "HONORARY_DOCTORATE": "Awarded an Honorary Doctorate from the International Academy for Development and Scientific Research.",
-      "PEACE_AMBASSADOR": "Certified Peace and Goodwill Ambassador from the Belgian Global Association for Humanity, Creativity, and International Peace (affiliated with the European Union).",
-      "MILITARY_MEDAL": "Awarded the Second-Class Duty Medal during previous service in the Egyptian Armed Forces.",
-      "GOLD_RESIDENCE": "Holder of the Gold Residence Permit for Creators and Thinkers in the United Arab Emirates."
-    },
-    "STUDIES": "-Studied at Nasser Military Academy (National Security Strategy, Crisis Management, Decision-Making, etc.)."
+  
+"NAVBAR": {
+  "HOME": "Home",
+  "ABOUT_US": "About Us",
+  "ABOUT_GHAYA":"About Ghaya",
+  "OUR_VISION":"Our Vision",
+  "OUR_GOALS":"Our Goals",
+  "CONTACT_US": "Contact Us",
+  "GET_STARTED": "Get Started",
+  "COMPETITIONS": "Competitions",
+  "English": "English"
+  
+},
+"ADDRESS":"4 Takseem Al Togareen - 9 street - front of CIB Bank - Al Mokattam - Cairo",
+"CONTACT_US":"Contact Us",
+"FOUNDERS":"Meet Our Founders",
+"FOUNDER_INFO": {
+  "NAME":"Morad Maher",
+  "TITLE":"CEO-Founder",
+  "GHAYA_FOUNDATION": "Founder and Chairman of the Board of Ghaya Foundation for Creativity.",
+  "BEYOND_VISION": "Founder and Chairman of Beyond Vision Company Consulting and Digital Content Production in the United Arab Emirates.",
+  "EDUCATION": "Graduate of the Military Technical College.",
+  "UNION_MEMBERSHIPS": {
+    "WRITERS_UNION": "Member of the Union of Egyptian and Arab Writers.",
+    "PUBLISHERS_UNION": "Member of the Publishers’ Union.",
+    "ENGINEERS_SYNDICATE": "Member of the Engineers’ Syndicate.",
+    "VETERANS_ASSOCIATION": "Member of the Veterans’ Association."
   },
-  "VICE_CEO":{
-    "NAME":"Amal Rabie",
-    "TITLE": "Vice CEO- General Supervisor",
-    "BIO": "Founder and Director of the HOPE HUB Creative Academy for Training Children and Youth.\n \nFormerly, the Cultural Activities Officer at the Cultural Development Fund, Ministry of Culture. Founder and Editor-in-Chief of the Dama Electronic Platform for Feminist Writing.",
-    "EDUCATION": "Bachelor's Degree in Arts from Cairo University.",
-    "POSTGRADUATE_STUDIES": "Postgraduate Studies in Literary Criticism.",
-    "DOCTORATE": "PhD in Business Administration from the Faculty of Science and Administration."
+  "HONORS": {
+    "HONORARY_DOCTORATE": "Awarded an Honorary Doctorate from the International Academy for Development and Scientific Research.",
+    "PEACE_AMBASSADOR": "Certified Peace and Goodwill Ambassador from the Belgian Global Association for Humanity, Creativity, and International Peace (affiliated with the European Union).",
+    "MILITARY_MEDAL": "Awarded the Second-Class Duty Medal during previous service in the Egyptian Armed Forces.",
+    "GOLD_RESIDENCE": "Holder of the Gold Residence Permit for Creators and Thinkers in the United Arab Emirates."
   },
-  "READ_MORE":"Read More",
-  "READ_LESS":"Read Less",
-  "MEMBERS":
-  {
-    "MEMBER1": {
-      "NAME": "Mostafa El-Farmawy",
-      "ROLE": "Member of the Board of Directors and Marketing and Library Consultant.",
-      "QUALIFICATION": "Bachelor's Degree in Media from Cairo University.",
-      "CURRENT_JOB": "General Manager of Marketing Studies at the Egyptian General Book Organization.",
+  "STUDIES": "-Studied at Nasser Military Academy (National Security Strategy, Crisis Management, Decision-Making, etc.)."
+},
+"VICE_CEO":{
+  "NAME":"Amal Rabie",
+  "TITLE": "Vice CEO- General Supervisor",
+  "BIO": "Founder and Director of the HOPE HUB Creative Academy for Training Children and Youth.\n \nFormerly, the Cultural Activities Officer at the Cultural Development Fund, Ministry of Culture. Founder and Editor-in-Chief of the Dama Electronic Platform for Feminist Writing.",
+  "EDUCATION": "Bachelor's Degree in Arts from Cairo University.",
+  "POSTGRADUATE_STUDIES": "Postgraduate Studies in Literary Criticism.",
+  "DOCTORATE": "PhD in Business Administration from the Faculty of Science and Administration."
+},
+"READ_MORE":"Read More",
+"READ_LESS":"Read Less",
+"MEMBERS":
+{
+  "MEMBER1": {
+    "NAME":"Mostafa El-Farmawy",
+    "SLIDER_NAME": "Mostafa El-Farmawy",
+    "SLIDER_ROLE": "Member of the Board of Directors - Marketing & Library Consultant",
+    "ROLE": "Member of the Board of Directors and Marketing and Library Consultant.",
+    "QUALIFICATION": "Bachelor's Degree in Media from Cairo University.",
+    "CURRENT_JOB": "General Manager of Marketing Studies at the Egyptian General Book Organization.",
 "PREVIOUS_EXPERIENCE": {
-  "EXPERIENCE_1": "Worked at Dar El-Shorouk in its first branch, El-Shorouk Library in Talaat Harb Square, from 1989 until 1991.",
-  "EXPERIENCE_2": "Participated in founding Al-Obeikan Library in Riyadh, Saudi Arabia, and worked there until 1997.",
-  "EXPERIENCE_3": "Worked as Sales and Distribution Manager at Dar Al-Thakafa Publishing and Distribution from 1997 until 1999.",
-  "EXPERIENCE_4": "Worked as Sales Manager at Dar Sotoor Publishing and Distribution from 1999 to 2001.",
-  "EXPERIENCE_5": "Returned to Dar El-Shorouk as Manager of El-Shorouk Library at First Mall from 2001 until 2005.",
-  "EXPERIENCE_6": "Worked as Manager of Supply for El-Shorouk Libraries.",
-  "EXPERIENCE_7": "Part of the team responsible for establishing and opening the El-Shorouk Library chain from 2006, training new staff and preparing new branches until reaching 13 branches, in addition to responsibility for supply and follow-up until 2017.",
-  "EXPERIENCE_8": "Worked as Marketing Manager at Dar El-Shorouk from 2017 until the end of 2021.",
-  "EXPERIENCE_9": "Over 28 years of experience in the book industry, including supply, marketing, and sales through libraries and online sales recently.",
-  "EXPERIENCE_10": "Managed and trained library staff or salespersons on sales techniques and how to deal with books and readers.",
-  "EXPERIENCE_11": "Good understanding of the book market and its needs through continuous exposure to both internal and external markets.",
-  "EXPERIENCE_12": "Maintains good relations with publishers and those interested in the book industry in Egypt and the Arab world.",
-  "EXPERIENCE_13": "Received recognition on several occasions through various events held over the past years."
+"EXPERIENCE_1": "Worked at Dar El-Shorouk in its first branch, El-Shorouk Library in Talaat Harb Square, from 1989 until 1991.",
+"EXPERIENCE_2": "Participated in founding Al-Obeikan Library in Riyadh, Saudi Arabia, and worked there until 1997.",
+"EXPERIENCE_3": "Worked as Sales and Distribution Manager at Dar Al-Thakafa Publishing and Distribution from 1997 until 1999.",
+"EXPERIENCE_4": "Worked as Sales Manager at Dar Sotoor Publishing and Distribution from 1999 to 2001.",
+"EXPERIENCE_5": "Returned to Dar El-Shorouk as Manager of El-Shorouk Library at First Mall from 2001 until 2005.",
+"EXPERIENCE_6": "Worked as Manager of Supply for El-Shorouk Libraries.",
+"EXPERIENCE_7": "Part of the team responsible for establishing and opening the El-Shorouk Library chain from 2006, training new staff and preparing new branches until reaching 13 branches, in addition to responsibility for supply and follow-up until 2017.",
+"EXPERIENCE_8": "Worked as Marketing Manager at Dar El-Shorouk from 2017 until the end of 2021.",
+"EXPERIENCE_9": "Over 28 years of experience in the book industry, including supply, marketing, and sales through libraries and online sales recently.",
+"EXPERIENCE_10": "Managed and trained library staff or salespersons on sales techniques and how to deal with books and readers.",
+"EXPERIENCE_11": "Good understanding of the book market and its needs through continuous exposure to both internal and external markets.",
+"EXPERIENCE_12": "Maintains good relations with publishers and those interested in the book industry in Egypt and the Arab world.",
+"EXPERIENCE_13": "Received recognition on several occasions through various events held over the past years."
 }    },
-    "MEMBER2": {
-      "NAME": "Dr. Haytham Alhaj Aly",
-      "ROLE": "Member of the Board of Directors and Technical Advisor.",
-      "JOB": "Egyptian Critic and Academic Specializing in Modern Arabic Literature.",
-      "TITLE": "Assistant Professor of Modern Arabic Literature and Literary Criticism at Helwan University.",
-      "INTERESTS": "Focuses on Arabic narrative studies and its critical methodologies.",
-      "POSITIONS": "Held several cultural executive positions including Secretary General of the Supreme Council of Culture, President of the Egyptian General Book Organization, Chairman of the Cairo International Book Fair, and Chairman of the Cairo Newspaper Board published by the Egyptian Ministry of Culture.",
-      "HONORS": "Received an honorary professorship from Ningxia University, China.",
-      "PUBLICATIONS": "Author of several works including 'Experimentation in Short Stories', 'Qualitative Time and Narrative Genre Issues', and the translation of Roger Bromley's 'Forgotten Narrative Texts'.",
-      "ACADEMIC_WORK": "Published numerous academic papers on Arabic narratives and participated in international conferences on culture, literature, and narrative.",
-      "POETRY": "Poet with two published collections: 'Pain That Surprises Time' and 'A Space That Shelters Its Owner'.",
-      "WEEKLY_ARTICLE": "Writes a weekly article in Youm7 newspaper focusing on identity, culture, and its activation."
-    },
-    "MEMBER3": {
-      "NAME": "Emad Al Adly",
-      "ROLE": "Member of the Board of Directors and Publishing Director.",
+  "MEMBER2": {
+    "NAME": "Dr. Haytham Alhaj Aly",
+    "SLIDER_ROLE": "Member of the Board of Directors - Technical Advisor",
+    "ROLE": "Member of the Board of Directors and Technical Advisor.",
+    "JOB": "Egyptian Critic and Academic Specializing in Modern Arabic Literature.",
+    "TITLE": "Assistant Professor of Modern Arabic Literature and Literary Criticism at Helwan University.",
+    "INTERESTS": "Focuses on Arabic narrative studies and its critical methodologies.",
+    "POSITIONS": "Held several cultural executive positions including Secretary General of the Supreme Council of Culture, President of the Egyptian General Book Organization, Chairman of the Cairo International Book Fair, and Chairman of the Cairo Newspaper Board published by the Egyptian Ministry of Culture.",
+    "HONORS": "Received an honorary professorship from Ningxia University, China.",
+    "PUBLICATIONS": "Author of several works including 'Experimentation in Short Stories', 'Qualitative Time and Narrative Genre Issues', and the translation of Roger Bromley's 'Forgotten Narrative Texts'.",
+    "ACADEMIC_WORK": "Published numerous academic papers on Arabic narratives and participated in international conferences on culture, literature, and narrative.",
+    "POETRY": "Poet with two published collections: 'Pain That Surprises Time' and 'A Space That Shelters Its Owner'.",
+    "WEEKLY_ARTICLE": "Writes a weekly article in Youm7 newspaper focusing on identity, culture, and its activation."
+  },
+  "MEMBER3": {
+    "NAME": "Emad Al Adly",
+    "SLIDER_ROLE": "Member of the Board of Directors - Publishing Director",
+    "ROLE": "Member of the Board of Directors and Publishing Director.",
 "QUALIFICATIONS": {
-  "BACHELOR_OF_ARTS_PHILOSOPHY": "Bachelor's degree in Arts, Department of Philosophical Studies from Ain Shams University.",
-  "BACHELOR_OF_LAW": "Bachelor's degree in Law from Ain Shams University.",
-  "LICENSE_ISLAMIC_THOUGHT": "License in Islamic Thought from the Institute of Islamic Studies."
+"BACHELOR_OF_ARTS_PHILOSOPHY": "Bachelor's degree in Arts, Department of Philosophical Studies from Ain Shams University.",
+"BACHELOR_OF_LAW": "Bachelor's degree in Law from Ain Shams University.",
+"LICENSE_ISLAMIC_THOUGHT": "License in Islamic Thought from the Institute of Islamic Studies."
 },
 "WORK_EXPERIENCE": {
-  "ROLE_1": "Former Cultural Advisor and Event Manager at Institution (A) from 2009 to 2019.",
-  "ROLE_2": "Current Cultural Advisor to the General Syndicate of Physicians of Egypt since 2022.",
-  "ROLE_3": "Director of the Hikma Cultural Salon.",
-  "ROLE_4": "Co-founder and Managing Editor of the Literary Agency for Editing and Publishing Services.",
-  "ROLE_5": "Former Editorial Consultant for several Egyptian publishing houses (Dawn/Toya/Al-Hala/Kayan) from 2019 to 2023."
+"ROLE_1": "Former Cultural Advisor and Event Manager at Institution (A) from 2009 to 2019.",
+"ROLE_2": "Current Cultural Advisor to the General Syndicate of Physicians of Egypt since 2022.",
+"ROLE_3": "Director of the Hikma Cultural Salon.",
+"ROLE_4": "Co-founder and Managing Editor of the Literary Agency for Editing and Publishing Services.",
+"ROLE_5": "Former Editorial Consultant for several Egyptian publishing houses (Dawn/Toya/Al-Hala/Kayan) from 2019 to 2023."
 },
-      "ACTIVITIES": "Founder of the Philosophical Corridor in Egyptian governorates (a non-profit philosophical enlightenment activity).\nLecturer in philosophy and region at the Alexandria Library and the New Egypt Association.",
+    "ACTIVITIES": "Founder of the Philosophical Corridor in Egyptian governorates (a non-profit philosophical enlightenment activity).\nLecturer in philosophy and region at the Alexandria Library and the New Egypt Association.",
 "PUBLICATIONS": {
-  "PUBLICATION_1": "Tales of the Book Guardian (Dawn Publishing).",
-  "PUBLICATION_2": "The Agenda (Al-Hala Publishing).",
-  "PUBLICATION_3": "People of Reading and Writing (Lyan Publishing) Co-author.",
-  "PUBLICATION_4": "Tales of Dunia Zad (Stories in Publication).",
-  "PUBLICATION_5": "So That the Coffee Does Not Boil Over (A book on simplifying philosophy under publication)."
+"PUBLICATION_1": "Tales of the Book Guardian (Dawn Publishing).",
+"PUBLICATION_2": "The Agenda (Al-Hala Publishing).",
+"PUBLICATION_3": "People of Reading and Writing (Lyan Publishing) Co-author.",
+"PUBLICATION_4": "Tales of Dunia Zad (Stories in Publication).",
+"PUBLICATION_5": "So That the Coffee Does Not Boil Over (A book on simplifying philosophy under publication)."
 }
-    },
-    "MEMBER4":  {
-      "NAME": "Dr. Nancy Ibrahim - Egypt",
-      "ROLE":"Member of the Board of Directors ",
-      "DEGREES": "PhD in Arts with First-Class Honors from the Faculty of Arts, Ain Shams University, Department of Arabic Language and Literature, with a thesis titled 'Intertextual Relations Between Critical Heritage and Poetic Creativity'.\nMaster's degree in Arts with Excellent Distinction from the Faculty of Arts, Ain Shams University, Department of Arabic Language and Literature, with a thesis titled 'Building Paradox in Arabic Rhetoric'.\nBachelor’s degree in Arts from the Faculty of Arts, Ain Shams University with an overall grade of 'Very Good'.",
+  },
+  "MEMBER4":  {
+    "NAME": "Dr. Nancy Ibrahim - Egypt",
+    "SLIDER_NAME": "Dr. Nancy Ibrahim",
+    "ROLE":"Member of the Board of Directors ",
+    "DEGREES": "PhD in Arts with First-Class Honors from the Faculty of Arts, Ain Shams University, Department of Arabic Language and Literature, with a thesis titled 'Intertextual Relations Between Critical Heritage and Poetic Creativity'.\nMaster's degree in Arts with Excellent Distinction from the Faculty of Arts, Ain Shams University, Department of Arabic Language and Literature, with a thesis titled 'Building Paradox in Arabic Rhetoric'.\nBachelor’s degree in Arts from the Faculty of Arts, Ain Shams University with an overall grade of 'Very Good'.",
 "MEMBERSHIPS": {
-  "MEMBERSHIP_1": "Member of the Supreme Council of Culture in Egypt, Committee on Literary, Critical, and Linguistic Studies.",
-  "MEMBERSHIP_2": "Member of the Union of Arab Writers and Media Professionals in Europe - ZARA Center for Studies and Research, Paris.",
-  "MEMBERSHIP_3": "Member of the Arab Council for Social Responsibility and Sustainable Development at the Arab-African Forum for Training and Development (Cultural Committee).",
-  "MEMBERSHIP_4": "Member of the Egyptian Association for Narrative Studies.",
-  "MEMBERSHIP_5": "Member of the Egyptian Association for Literary Criticism.",
-  "MEMBERSHIP_6": "Member of the Scientific Advisory Committee of the journal 'Maqamat' affiliated with the Ministry of Education and Scientific Research - University Center of Aflou, Algeria."
+"MEMBERSHIP_1": "Member of the Supreme Council of Culture in Egypt, Committee on Literary, Critical, and Linguistic Studies.",
+"MEMBERSHIP_2": "Member of the Union of Arab Writers and Media Professionals in Europe - ZARA Center for Studies and Research, Paris.",
+"MEMBERSHIP_3": "Member of the Arab Council for Social Responsibility and Sustainable Development at the Arab-African Forum for Training and Development (Cultural Committee).",
+"MEMBERSHIP_4": "Member of the Egyptian Association for Narrative Studies.",
+"MEMBERSHIP_5": "Member of the Egyptian Association for Literary Criticism.",
+"MEMBERSHIP_6": "Member of the Scientific Advisory Committee of the journal 'Maqamat' affiliated with the Ministry of Education and Scientific Research - University Center of Aflou, Algeria."
 },
 "CONFERENCES": "Participated in various scientific conferences and cultural forums, including:\n1. Al-Babtain Arab Poetry Course in Kuwait, 2022\n 2. Algiers Book Fair on Digital Novels, 2022\n 3. Riyadh International Book Fair 'Aesthetics of Place in Arabic Novels', 2021\n 4. Arab Poetry Forum in Sharjah on Intertextuality in Arabic Poetry, 2018\n 5. Souq Okaz with a research paper titled 'Emotional Trends in Arabic Song Poetry', 2018\n 6. Representations of Jewish Characters in Contemporary Arabic Novels, Jordan 2021\n 7. Global Forum on Higher Education and Scientific Research: Present and Future, Cairo 2019\n 8. Cairo International Book Fair in all its sessions from 2010 to 2023\n 9. Many Arab book fairs including Riyadh International Book Fair, Sharjah, Casablanca, Algiers, Tunis, Amman, and Beirut.",
 "JUDGING": "Judged various scientific journals and Arab awards, including:\"Katara Prize for Fiction, 2017\",\"  Yusuf Idris Prize for Short Stories, Paris 2021\",\"  Cairo University Prize for Poetry, 2023\" ",
 "PUBLICATIONS": "Has many articles in prominent Arab newspapers and magazines, including:\" Al-Ahram Newspaper\" , \"Al-Riyadh\" ,\" Al-Hayat\",\"  Alam al-Kitab\",\"  Al-Yamamah Magazine\", \" Al-Hilal Magazine\" "    }
-  }
-  ,
-  "PHONE":"+2 250 55501",
-  "OUR_POLICY":"Our Policy",
-  "BOARD_MEMBERS":"Our Board Members",
-  "KNOW_MORE_ABOUT":"Know More About Our Team"
+}
+,
+"PHONE":"+2 250 55501",
+"OUR_POLICY":"Our Policy",
+"BOARD_MEMBERS":"Our Board Members",
+"KNOW_MORE_ABOUT":"Know More About Our Team"
 
-  }
-  
+}
