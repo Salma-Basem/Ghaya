@@ -1,106 +1,148 @@
- .nav-link:hover {
-    color: var(--main-color) !important; /* Hover color */
-  }
-  .rtl {
-    direction: rtl;
-    text-align: right;
-  }
-  
-  .rtl .navbar-brand {
-    order: -1;
-    margin-left: 1rem;
-    margin-right: 0;
-  }
-  
-  .rtl .social-media {
-    order: -1;
-    margin-left: 1rem;
-    margin-right: 0;
-  }
-  
-  .rtl .nav-item:not(:first-child) {
-    margin-right: 1rem;
-    margin-left: 0;
-  }
-  /* vision.component.css or specific component CSS */
+.nav-link:hover {
+  color: var(--main-color) !important; /* Hover color */
+}
+.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.rtl .navbar-brand {
+  order: -1;
+  margin-left: 1rem;
+  margin-right: 0;
+}
+
+.rtl .social-media {
+  order: -1;
+  margin-left: 1rem;
+  margin-right: 0;
+}
+
+.rtl .nav-item:not(:first-child) {
+  margin-right: 1rem;
+  margin-left: 0;
+}
+/* vision.component.css or specific component CSS */
 
 .navbar-nav .nav-link {
-  color: white; /* Ensure the text is readable */
+color: white; /* Ensure the text is readable */
 }
 
 .navbar-brand, .navbar-toggler-icon {
-  color: white; /* Ensure the brand and toggle icon are visible */
+color: white; /* Ensure the brand and toggle icon are visible */
 }
 
 .logo-size
 
 {
-  width: 2px;
+width: 2px;
 }
 .navbar-nav {
-  margin-left: auto; /* Align nav items to the right in LTR mode */
-  margin-right: auto; /* Center nav items in RTL mode */
+margin-left: auto; /* Align nav items to the right in LTR mode */
+margin-right: auto; /* Center nav items in RTL mode */
 }
 
 .direction-rtl .navbar-toggler {
-  order: -1; /* Moves the toggler to the left in RTL mode */
+order: -1; /* Moves the toggler to the left in RTL mode */
 }
 .direction-rtl .navbar-nav {
-  margin-left: auto; /* Align nav items to the right in RTL mode */
+margin-left: auto; /* Align nav items to the right in RTL mode */
 }
 
 nav  .linkedin {
-  color: #0072b1;
+color: #0072b1;
 }
 nav  .twitter {
-  color: #00acee;
+color: #00acee;
 }
 nav .facebook {
-  color: #4267b2;
+color: #4267b2;
 }
 nav .youtube {
-  color: #ff0000;
+color: #ff0000;
 }
 nav .snapchat {
-  color: rgb(253, 252, 0);
+color: rgb(253, 252, 0);
 }
-/* .navbar-expand-lg .navbar-collapse 
-{
-  flex-wrap: nowrap;
-  flex-grow: 0;
-  flex-basis: content;
-} */
+
 
 /* Default alignment for social media icons */
 .social-media {
-  display: flex;
-  gap: 10px; /* Adjust spacing as needed */
+display: flex;
+gap: 10px; /* Adjust spacing as needed */
 }
 
 /* For RTL layouts */
 [dir='rtl'] .social-media {
-  margin-left: auto; /* Align social media icons to the left in RTL */
+margin-left: auto; /* Align social media icons to the left in RTL */
 }
 
 /* Ensure the navbar items are spaced properly */
 [dir='ltr'] .navbar-nav {
-  margin-left: auto; /* Align items to the right in LTR */
+margin-left: auto; /* Align items to the right in LTR */
 }
 
 [dir='rtl'] .navbar-nav {
-  margin-right: auto; /* Align items to the left in RTL */
+margin-right: auto; /* Align items to the left in RTL */
 }
 
 /* Adjust margin for individual navbar items */
 
 [dir='rtl'] .social-media {
-  margin-right: 10rem; /* Adjust spacing for RTL */
+margin-right: 10rem; /* Adjust spacing for RTL */
 }
 
 
 /* Ensure dropdowns are positioned correctly */
 [dir='rtl'] .dropdown-menu {
-  left: auto;
-  right: 0; /* Align dropdown menu to the left in RTL */
+left: auto;
+right: 0; /* Align dropdown menu to the left in RTL */
+}
+/* Ensure proper spacing between social media icons */
+.social-media i {
+font-size: 1.2rem; /* Adjust icon size as needed */
 }
 
+.social-media span {
+margin-left: 0.5rem; /* Adjust spacing between icons */
+}
+
+/* Handling alignment based on language direction */
+[dir="rtl"] .social-media {
+margin-left: auto;
+margin-right: 0;
+}
+
+[dir="ltr"] .social-media {
+margin-left: 0;
+margin-right: auto;
+}
+
+/* Adjust navbar button styling */
+.btn-outline-light {
+border-color: #fff;
+color: #fff;
+}
+
+.btn-outline-light:hover {
+background-color: #fff;
+color: #000;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+.social-media {
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
+@media (min-width: 992px) {
+.navbar-nav {
+  flex-direction: row;
+}
+
+.navbar-toggler {
+  display: none; /* Hide toggler on large screens */
+}
+}
